@@ -151,6 +151,14 @@ body {
 
 .hero {
   background-color: var(--black-background-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   letter-spacing: 0.06em;
   text-align: center;
 
@@ -215,6 +223,12 @@ body {
   margin-right: 30px;
 }
 
+.feature-icon-box {
+  background-color: var(--gray-background-color);
+  border-radius: 4px;
+  padding: 25px;
+}
+
 .feature-title {
   color: var(--title-text-color);
 
@@ -275,11 +289,49 @@ body {
   text-align: center;
 }
 
+.list-social-networks {
+  display: flex;
+  justify-content: center;
+}
+.link-social-networks {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  fill: var(--social-image-color);
+}
+.link-social-networks:hover,
+.link-social-networks:focus {
+  background-color: var(--accent-colot);
+  border-radius: 50%;
+  fill: var(--white-color);
+}
+/*--------------------- client company----------- */
+.list-client-company {
+  display: flex;
+}
+
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.item-client-company:not(:last-child) {
+  margin-right: 30px;
+}
+
 /*----------------------- footer-------------------------- */
 .footer {
   background-color: var(--black-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 
 .logo-bot {
@@ -292,7 +344,9 @@ body {
 
   display: flex;
 }
-
+.box {
+  display: flex;
+}
 .logo-and {
   color: var(--white-color);
 }
@@ -325,6 +379,23 @@ body {
 .address-link:hover,
 .plase:hover {
   color: var(--accent-colot);
+}
+
+.footer-caption {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.footer-conteiner {
+  padding-top: 12px;
+}
+.footer-icon {
+  background-color: #44454e;
+  fill: var(--white-color);
+  border-radius: 50%;
 }
 /*------------------- PORTFOLIO ---------------------------*/
 /* types of work */
