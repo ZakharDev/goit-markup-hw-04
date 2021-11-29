@@ -138,15 +138,29 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  fill: var(--primeri-text-color);
+  /* --icon-color: currentColor; */
 }
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-colot);
+  fill: var(--accent-colot);
+}
+
+.envelope {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.smartphone {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 /*------------------------- hero-------------------- */
@@ -295,7 +309,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .link-social-networks {
   display: flex;
   width: 44px;
@@ -304,22 +317,11 @@ body {
   justify-content: center;
   fill: var(--social-image-color);
 }
-
 .link-social-networks:hover,
 .link-social-networks:focus {
   background-color: var(--accent-colot);
   border-radius: 50%;
   fill: var(--white-color);
-}
-
-.item-social-networks:not(:last-child) {
-  margin-right: 10px;
-}
-
-.icon-social-networks {
-  display: block;
-  height: 20px;
-  width: 20px;
 }
 /*--------------------- client company----------- */
 .list-client-company {
@@ -425,7 +427,10 @@ body {
   fill: var(--white-color);
   border-radius: 50%;
 }
-
+.item-social-networks {
+  width: 44px;
+  height: 44px;
+}
 /*------------------- PORTFOLIO ---------------------------*/
 /* types of work */
 .button-works {
