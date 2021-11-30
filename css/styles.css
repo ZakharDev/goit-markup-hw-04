@@ -255,6 +255,9 @@ body {
   width: 70px;
   height: 70px;
 }
+.feature:last-child {
+  margin-right: 0;
+}
 
 .feature-title {
   color: var(--title-text-color);
@@ -327,12 +330,26 @@ body {
   align-items: center;
   justify-content: center;
   fill: var(--social-image-color);
+  margin-bottom: 30px;
+}
+.link-social-networks{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .link-social-networks:hover,
 .link-social-networks:focus {
   background-color: var(--accent-colot);
   border-radius: 50%;
   fill: var(--white-color);
+}
+.icon-social-networks{
+  width: 20px;
+  height: 20px;
+  fill: var(--social-image-color);
 }
 /*--------------------- client company----------- */
 .list-client-company {
