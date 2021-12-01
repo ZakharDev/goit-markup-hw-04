@@ -338,6 +338,9 @@ body {
   align-items: center;
   margin-bottom: 30px;
 }
+.icon-social-networks{
+  color: var(--social-image-color);
+}
 
 .link-social-networks{
   width: 100%;
