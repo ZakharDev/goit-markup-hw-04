@@ -392,7 +392,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var();
   margin-bottom: 50px;
 }
 .clients-list {
@@ -504,29 +504,32 @@ body {
   fill:#afb1b8;
 }
 
-.invite {
+.footer-caption {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
 }
-.footer-icon-list {
+.list-social-networks{
   display: flex;
   justify-content: center;
 }
-.footer-icon-item {
+.footer-item-social-networks{
   width: 44px;
   height: 44px;
   margin-left: 10px;
 }
-.footer-icon-item:first-child {
+.footer-item-social-networks:first-child {
   margin-left: 0;
 }
-.footer-link {
-  display: flex;
+.footer-conteiner {
+  padding-top: 12px;
+}
+.footer-icon {
+display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -534,8 +537,8 @@ body {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
-.footer-link:hover,
-.footer-link:focus {
+.footer-icon:hover,
+.feature-icon:focus{
   background-color: var(--accent-colot);
 }
 .footer-icon {
@@ -544,8 +547,8 @@ body {
   height: 20px;
   fill: var(--white-color);
 }
-.footer-icon:hover,
-.footer-icon:focus {
+.footer-icon-social-networks:hover,
+.footer-icon-social-networks:focus{
   background-color: var(--accent-colot);
 }
 /*------------------- PORTFOLIO ---------------------------*/
