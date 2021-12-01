@@ -9,7 +9,7 @@
   --social-image-color: #dafb1b8;
   --logo-color:#2196F3;
   --bg-hover-button:#188ce8;
-
+  --adress-color: rgba(255, 255, 255, 0.6);
 }
 .visually-hidden {
   position: absolute;
@@ -435,73 +435,65 @@ body {
 }
 /*----------------------- footer-------------------------- */
 .footer {
-  background-color: var(--black-background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
-  display: flex;
+  background-color: var(--footer-background-color);
+  padding: 60px 0;
 }
-
-.logo-bot {
-  font-family: raleway, sans-serif;
-  font-weight: 700;
+.footer-content {
+  display: flex;
+  align-items: baseline;
+}
+.footer-address {
+  margin-right: 70px;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-bottom: 20px;
+  letter-spacing: 0.03em;
 
-  display: flex;
-}
-.box {
-  display: flex;
-}
-.footer-box {
-  width: auto;
-  margin: 0 70px 0 0;
-  padding-right: 0;
-}
-.logo-start{
-  color: #2196F3;
-}
-.logo-and {
   color: var(--white-color);
 }
-.plase {
-  color: var(--white-color);
-
-  font-size: 14px;
-  line-height: 1.71;
-  text-decoration: none;
-}
-
-.address {
-  font-style: normal;
-}
-.address-item:not(:last-child) {
-  display: block;
-  margin-bottom: 9px;
-}
-
-.address-link {
-  color: var(--translucent-color);
-
-  font-size: 14px;
-  line-height: 1.71;
-  text-decoration: none;
-}
-
-.address-link:focus,
-.plase:focus,
-.address-link:hover,
-.plase:hover {
+.footer-logo-blue {
   color: var(--accent-colot);
 }
-.link-social-networks {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  align-items: center;
-  justify-content: center;
-  fill:#afb1b8;
+.footer-list {
+  margin-top: 20px;
+}
+.footer-address-list {
+  list-style-type: none;
+  font-style: normal;
+}
+.footer-address-list > li {
+  margin-bottom: 9px;
+}
+.footer-address-map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--white-color);
+}
+.footer-address-link {
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--adress-color);
+}
+.footer-address-link:focus,
+.footer-address-link:hover {
+  color: var(--accent-colot);
 }
 
 .invite {
