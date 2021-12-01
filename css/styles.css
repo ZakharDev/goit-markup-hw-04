@@ -8,6 +8,8 @@
   --translucent-color: rgba(255, 255, 255, 0.6)
   --social-image-color: #afb1b8;
   --logo-color:#2196F3;
+  --bg-hover-button:#188ce8
+
 }
 .visually-hidden {
   position: absolute;
@@ -384,6 +386,22 @@ color: var(--white-color);
 
 .item-client-company:not(:last-child) {
   margin-right: 30px;
+}
+.list-client-company{
+  display: flex;
+  justify-content: space-between;
+}
+.link-client-company{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display:flex
+}
+.link-client-company:focus .icon-client-company,
+.link-client-company:hover .icon-client-company{
+  border-color: var(--bg-hover-button);
+  fill: var(--bg-hover-button);
 }
 
 /*----------------------- footer-------------------------- */
