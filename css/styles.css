@@ -323,9 +323,13 @@ body {
   text-align: center;
 }
 
+
 .list-social-networks {
   display: flex;
   justify-content: center;
+}
+.item-social-networks{
+  margin-right: 10px;
 }
 .link-social-networks {
   display: flex;
@@ -335,6 +339,7 @@ body {
   justify-content: center;
   fill: var(--social-image-color);
   margin-bottom: 30px;
+  
 }
 .link-social-networks{
   width: 100%;
