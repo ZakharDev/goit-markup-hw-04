@@ -364,7 +364,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--white-color);
+  color: #afb1b8;
 }
 .icon-social-networks{
   width: 20px;
