@@ -399,7 +399,9 @@ body {
   color: var(--title-text-color);
   margin-bottom: 50px;
 }
-
+.item-client-company{
+  color: #afb1b8);
+}
 .item-client-company:not(:last-child) {
   margin-right: 30px;
 }
