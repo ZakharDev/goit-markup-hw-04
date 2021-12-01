@@ -400,12 +400,12 @@ color: var(--white-color);
 }
 .link-client-company:focus .icon-client-company,
 .link-client-company:hover .icon-client-company{
-  border-color: var(--bg-hover-button);
-  fill: var(--bg-hover-button);
+  border-color: #188ce8;
+  fill: #188ce8;
 }
 .link-client-company:hover,
 .link-client-company:focus{
-  border-color: var(--bg-hover-button);
+  border-color: #188ce8;
 }
 .link-client-company{
   display: flex;
@@ -445,7 +445,7 @@ color: var(--white-color);
   padding-right: 0;
 }
 .logo-start{
-  color: var(--logo-color);
+  color: #2196F3;
 }
 .logo-and {
   color: var(--white-color);
