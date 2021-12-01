@@ -330,17 +330,15 @@ body {
 }
 .item-social-networks{
   margin-right: 10px;
-}
-.link-social-networks {
-  display: flex;
   width: 44px;
   height: 44px;
-  align-items: center;
+  margin-right: 10px;
+  display: flex;
   justify-content: center;
-  fill: var(--social-image-color);
+  align-items: center;
   margin-bottom: 30px;
-  
 }
+
 .link-social-networks{
   width: 100%;
   height: 100%;
@@ -354,6 +352,11 @@ body {
   background-color: var(--accent-colot);
   border-radius: 50%;
   fill: var(--white-color);
+  color:var(--white-color);
+}
+.link-social-networks:hover,
+.link-social-networks:focus .icon-social-networks{
+fill: var(--white-color);
 }
 .icon-social-networks{
   width: 20px;
