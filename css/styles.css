@@ -428,9 +428,8 @@ body {
 
 .icon-client-company{
   width: 41px;
-  height: 46px;
+  height: 44px;
   fill: currentColor;
-  padding: 33px 7px;
 }
 
 /*----------------------- footer-------------------------- */
@@ -513,17 +512,37 @@ body {
   color: var(--white-color);
   margin-bottom: 20px;
 }
+.list-social-networks{
+  display: flex;
+  justify-content: center;
+}
+.footer-item-social-networks{
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+}
+.footer-item-social-networks:first-child {
+  margin-left: 0;
+}
 .footer-conteiner {
   padding-top: 12px;
 }
 .footer-icon {
-  background-color: #44454e;
-  fill: var(--white-color);
+display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
-.item-social-networks {
-  width: 44px;
-  height: 44px;
+.footer-icon:hover,
+.feature-icon:focus{
+  background-color: var(--accent-colot);
+}
+.footer-icon-social-networks:hover,
+.footer-icon-social-networks:focus{
+  background-color: var(--accent-colot);
 }
 /*------------------- PORTFOLIO ---------------------------*/
 /* types of work */
