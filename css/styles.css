@@ -339,7 +339,7 @@ body {
   margin-bottom: 30px;
 }
 .icon-social-networks{
-  color: var(--social-image-color);
+  color: #afb1b8;
 }
 
 .link-social-networks{
@@ -364,7 +364,7 @@ fill: var(--white-color);
 .icon-social-networks{
   width: 20px;
   height: 20px;
-  fill: var(--social-image-color);
+  fill: #afb1b8;
 }
 /*--------------------- client company----------- */
 .list-client-company {
