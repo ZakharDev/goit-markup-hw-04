@@ -349,7 +349,7 @@ body {
   align-items: center;
 }
 .link-social-networks:hover,
-.link-social-networks:focus {
+.link-social-networks:focus .icon-social-networks {
   background-color: var(--accent-colot);
   fill: var(--white-color);
   color:var(--white-color);
@@ -358,7 +358,7 @@ body {
 .icon-social-networks{
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: var(--social-image-color);
 }
 /*--------------------- client company----------- */
 .list-client-company {
