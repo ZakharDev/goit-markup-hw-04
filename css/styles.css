@@ -351,6 +351,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.icon-social-networks{
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
 .link-social-networks:hover,
 .link-social-networks:focus  {
   background-color: var(--accent-colot);
@@ -362,11 +367,7 @@ body {
 fill: var(--white-color);
 color: var(--white-color);
 }
-.icon-social-networks{
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
-}
+
 
 
 /*--------------------- client company----------- */
