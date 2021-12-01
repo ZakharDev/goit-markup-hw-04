@@ -364,6 +364,10 @@ color: var(--white-color);
   height: 20px;
   fill: var(--social-image-color);
 }
+
+.icon-social-networks{
+  color: white;
+}
 /*--------------------- client company----------- */
 .list-client-company {
   display: flex;
