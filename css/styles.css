@@ -338,9 +338,7 @@ body {
   align-items: center;
   margin-bottom: 30px;
 }
-.icon-social-networks{
-fill: var(--social-image-color);
-}
+
 
 .link-social-networks{
   width: 100%;
@@ -354,7 +352,7 @@ fill: var(--social-image-color);
 .link-social-networks:focus {
   background-color: var(--accent-colot);
   fill: var(--white-color);
-  color:var(--white-color);
+  color:#AFB1B8;
 }
 .link-social-networks:hover .icon-social-networks,
 .link-social-networks:focus .icon-social-networks{
