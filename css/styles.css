@@ -406,6 +406,7 @@ body {
 .list-client-company{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .link-client-company{
   width: 170px;
@@ -418,7 +419,7 @@ body {
 }
 .item-client-company:focus,
 .item-client-company:hover {
-  border: 1px solid var(--accent-colot);
+  border: var(--accent-colot);
 }
 .link-client-company:hover,
 .link-client-company:focus{
