@@ -337,6 +337,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  margin-top: 16px;
 }
 
 
@@ -365,9 +366,7 @@ color: var(--white-color);
   fill: var(--social-image-color);
 }
 
-.icon-social-networks{
-  color: white;
-}
+
 /*--------------------- client company----------- */
 .list-client-company {
   display: flex;
