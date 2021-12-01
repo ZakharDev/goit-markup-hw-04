@@ -615,11 +615,7 @@ body {
 .portfolio-pojects-item {
   background-color: var(--white-color);
 }
-.portfolio-pojects-link > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* .portfolio-pojects-item:hover,
 .portfolio-pojects-item:focus {
