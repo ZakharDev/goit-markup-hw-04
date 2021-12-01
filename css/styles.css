@@ -357,7 +357,7 @@ body {
   fill: var(--white-color);
   color:var(--white-color);
 }
-.link-social-networks:hover,
+.link-social-networks:hover .icon-social-networks,
 .link-social-networks:focus .icon-social-networks{
 fill: var(--white-color);
 color: var(--white-color);
