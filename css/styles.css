@@ -357,6 +357,7 @@ body {
 .link-social-networks:hover,
 .link-social-networks:focus .icon-social-networks{
 fill: var(--white-color);
+color: var(--white-color);
 }
 .icon-social-networks{
   width: 20px;
