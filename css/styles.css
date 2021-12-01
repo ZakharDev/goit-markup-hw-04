@@ -422,7 +422,7 @@ body {
 }
 .link-client-company:hover,
 .link-client-company:focus{
-  border: 1px solid var(--accent-colot);
+  border: var(--accent-colot);
   color: var(--accent-colot);
 }
 
