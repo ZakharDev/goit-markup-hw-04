@@ -412,26 +412,24 @@ body {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  display:flex
-}
-.link-client-company:focus .icon-client-company,
-.link-client-company:hover .icon-client-company{
-  border-color: #188ce8;
-  fill: #188ce8;
-}
-.link-client-company:hover,
-.link-client-company:focus{
-  border-color: #188ce8;
-}
-.link-client-company{
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
 }
+.item-client-company:focus,
+.item-client-company:hover {
+  border: 1px solid var(--accent-colot);
+}
+.link-client-company:hover,
+.link-client-company:focus{
+  border: 1px solid var(--accent-colot);
+  color: var(--accent-colot);
+}
+
 .icon-client-company{
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 /*----------------------- footer-------------------------- */
