@@ -8,7 +8,7 @@
   --translucent-color: rgba(255, 255, 255, 0.6)
   --social-image-color: #afb1b8;
   --logo-color:#2196F3;
-  --bg-hover-button:#188ce8
+  --bg-hover-button:#188ce8;
 
 }
 .visually-hidden {
@@ -365,7 +365,7 @@ color: var(--white-color);
 .icon-social-networks{
   width: 20px;
   height: 20px;
-  fill: var(--social-image-color);
+  fill: #afb1b8;
 }
 
 
@@ -402,6 +402,20 @@ color: var(--white-color);
 .link-client-company:hover .icon-client-company{
   border-color: var(--bg-hover-button);
   fill: var(--bg-hover-button);
+}
+.link-client-company:hover,
+.link-client-company:focus{
+  border-color: var(--bg-hover-button);
+}
+.link-client-company{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-client-company{
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
 }
 
 /*----------------------- footer-------------------------- */
@@ -472,7 +486,7 @@ color: var(--white-color);
   height: 44px;
   align-items: center;
   justify-content: center;
-  fill:var(--social-image-color);
+  fill:#afb1b8;
 }
 
 .footer-caption {
