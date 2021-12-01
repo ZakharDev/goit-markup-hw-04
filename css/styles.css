@@ -348,16 +348,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.link-social-networks:hover,
+.link-social-networks:hover .icon-social-networks,
 .link-social-networks:focus .icon-social-networks {
   background-color: var(--accent-colot);
   fill: var(--white-color);
   color:var(--white-color);
 }
-.link-social-networks:hover .icon-social-networks,
-.link-social-networks:focus .icon-social-networks{
-  fill: var(--white-color);
-}
+
 .icon-social-networks{
   width: 20px;
   height: 20px;
