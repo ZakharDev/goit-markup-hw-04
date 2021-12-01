@@ -354,15 +354,12 @@ body {
   fill: var(--white-color);
   color:var(--white-color);
 }
-.icon-social-networks:hover,
-.icon-social-networks:focus{
-    background-color: var(--accent-colot);
-  fill: var(--white-color);
-}
+
 .icon-social-networks{
   width: 20px;
   height: 20px;
   fill: var(--social-image-color);
+  color: var(--social-image-color);
 }
 /*--------------------- client company----------- */
 .list-client-company {
