@@ -403,8 +403,7 @@ body {
   align-items: center;
 }
 .clients-item {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+
   margin-left: 30px;
   width: 170px;
   height: 92px;
@@ -413,6 +412,7 @@ body {
   margin-left: 0;
 }
 .clients-link {
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -421,13 +421,9 @@ body {
   height: 100%;
   color: #afb1b8;
 }
-.clients-item:hover,
-.clients-item:focus {
-  border: 1px solid #afb1b8;
-}
+
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid var(--accent-colot);
   color: var(--accent-colot);
 }
 .clients-icon {
