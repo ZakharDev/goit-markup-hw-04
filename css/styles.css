@@ -142,6 +142,7 @@ body {
   margin-left: 50px;
 }
 .contact {
+  fill: currentColor;
   /* display: block; */
   display: flex;
   align-items: center;
