@@ -407,6 +407,7 @@ body {
   margin-left: 30px;
   width: 170px;
   height: 92px;
+  border-radius: 4px;
 }
 .clients-item:first-child {
   margin-left: 0;
